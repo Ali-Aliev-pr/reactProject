@@ -5,27 +5,33 @@ import { BrowserRouter, Route, Link, Switch} from 'react-router-dom';
 function Page(props) {
     return (
         <>
-            <div>
+            <div className="page">
                 <p>{props.text}</p>
             </div>
         </>
     )
-}
+};
 
 function App() {
+
   return (
     <>
       <BrowserRouter>
         <main>
-            {/*<nav>*/}
-                <Link to="/">Main Page</Link>
-                <Link to="/first">First</Link>
-                {/*<Link to="second">Second</Link>*/}
-            {/*</nav>*/}
+            <nav>
+                <div className="navContainer">
+                    <Link to="/">Main Page</Link>
+                    <Link to="/first">First</Link>
+                    <Link to="/second">Second</Link>
+                </div>
+            </nav>
             <div className="container">
                 <Switch>
                     <Route path="/first">
                         <Page text="hhhh"/>
+                    </Route>
+                    <Route path="/second">
+                        <Page text="oooppoppopopopooppoop"/>
                     </Route>
                 </Switch>
             </div>
