@@ -1,16 +1,8 @@
 import './App.css';
 import React from "react";
 import { BrowserRouter, Route, Link, Switch} from 'react-router-dom';
-
-function Page(props) {
-    return (
-        <>
-            <div className="page">
-                <p>{props.text}</p>
-            </div>
-        </>
-    )
-};
+import Page from './Page'
+import logo from './img.png'
 
 function App() {
 
@@ -20,17 +12,17 @@ function App() {
         <main>
             <nav>
                 <div className="navContainer">
-                    <Link to="/">Main Page</Link>
-                    <Link to="/first">First</Link>
-                    <Link to="/second">Second</Link>
+                    <Link to="/" className="hello"><img src={logo}/></Link>
+                    <Link to="/first" className="hello">First</Link>
+                    <Link to="/second" className="hello">Second</Link>
                 </div>
             </nav>
             <div className="container">
                 <Switch>
-                    <Route path="/first">
+                    <Route path="/first/">
                         <Page text="hhhh"/>
                     </Route>
-                    <Route path="/second">
+                    <Route path="/second/">
                         <Page text="oooppoppopopopooppoop"/>
                     </Route>
                 </Switch>
