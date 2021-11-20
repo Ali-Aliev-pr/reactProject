@@ -7,7 +7,7 @@ import logo from './img.png'
 function App() {
 
   return (
-    <>
+      <>
       <BrowserRouter>
         <main>
             <nav>
@@ -18,14 +18,7 @@ function App() {
                 </div>
             </nav>
             <div className="container">
-                <Switch>
-                    <Route path="/first/">
-                        <Page text="hhhh"/>
-                    </Route>
-                    <Route path="/second/">
-                        <Page text="oooppoppopopopooppoop"/>
-                    </Route>
-                </Switch>
+                <Route path="/page" component={Page}/>
             </div>
         </main>
       </BrowserRouter>

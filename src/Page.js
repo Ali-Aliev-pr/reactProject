@@ -19,17 +19,9 @@ function Page(props) {
             <BrowserRouter>
                 <main>
                     <div className="page">
-                        <p>{props.text}</p>
-                        <Link to="/first/0">Next</Link>
+                        <p>Hello World!</p>
                     </div>
                 </main>
-                <div>
-                    <Switch>
-                        <Route path="/first/0">
-                            <PageSon name="Hello Son"/>
-                        </Route>
-                    </Switch>
-                </div>
             </BrowserRouter>
         </>
     )
