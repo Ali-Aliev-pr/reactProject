@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.header__container {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+img:not(:first-child) {
+    margin-left: 30px;
+}
+
+/*.header__container__left {*/
+/*    display: flex;*/
+/*}*/
+
+
+/*.header__container__right {*/
+/*    display: flex;*/
+/*}*/
