@@ -1,0 +1,6 @@
+.introText h1 {
+    max-width: 377px;
+    font-size: 30px;
+    border-left: 10px solid #F16D7F;
+    padding-left: 10px;
+}

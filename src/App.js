@@ -12,7 +12,14 @@ function App() {
       <BrowserRouter>
         <Header/>
         <div className="container">
-            <Route path="/" component={Main}/>
+            <Switch>
+                <Route exact path="/">
+                    <Main/>
+                </Route>
+                <Route path="/page">
+                    <Page/>
+                </Route>
+            </Switch>
         </div>
       </BrowserRouter>
     </>
