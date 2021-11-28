@@ -3,11 +3,28 @@
     background-color: #F1E4E6;
 }
 
-.main__container {
+.main__intro {
     max-width: 1170px;
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
     align-items: center;
     height: 100%;
+}
+
+.main__category {
+    max-width: 1170px;
+    margin: 0 auto;
+    /*padding: 0 10px;*/
+}
+
+.main__cards {
+    max-width: 1170px;
+    margin: 0 auto;
+    /*padding: 0 10px;*/
+}
+
+.main__information {
+    max-width: 1170px;
+    margin: 0 auto;
 }

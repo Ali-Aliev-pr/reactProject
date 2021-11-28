@@ -1,0 +1,78 @@
+img {
+    width: 100%;
+}
+
+.wrapper__title {
+    text-align: center;
+    font-size: 30px;
+    font-family: Lato;
+}
+
+.wrapper__text {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 15px;
+    font-family: Lato;
+    color: #9f9f9f;
+    opacity: .7;
+}
+
+.product__cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
+
+.product__card {
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+    width: 390px;
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: absolute;
+    width: 390px;
+    height: 420px;
+    background-color: rgba(58, 56, 56, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.product__card:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product__card:hover .overlay {
+    opacity: 1;
+}
+
+.card__text {
+    /*padding-left: 35px;*/
+    padding-top: 12px;
+    color: #5d5d5d;
+    font-size: 14px;
+    font-family: Lato;
+    width: 301px;
+    padding-bottom: 18px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.card__price {
+    /*padding-left: 35px;*/
+    color: #F16D7F;
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.card__title {
+    /*padding-left: 35px;*/
+    font-size: 13px;
+    font-family: Lato;
+    padding-top: 20px;
+}

@@ -1,0 +1,22 @@
+.main__category__wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__category__wrap__item {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__category__wrap__item:not(:last-child) {
+
+}
+
+.main__category__wrap__item__text {
+    position: absolute;
+    color: white;
+}
