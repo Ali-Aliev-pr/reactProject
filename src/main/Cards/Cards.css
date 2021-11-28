@@ -1,6 +1,6 @@
-img {
-    width: 100%;
-}
+/*img {*/
+/*    width: 100%;*/
+/*}*/
 
 .wrapper__title {
     text-align: center;
@@ -27,13 +27,14 @@ img {
 .product__card {
     /*border: 1px solid black;*/
     margin-top: 20px;
-    width: 390px;
+    /*width: 390px;*/
     box-sizing: border-box;
+    margin-left: 10px;
 }
 
 .overlay {
     position: absolute;
-    width: 390px;
+    width: 366px;
     height: 420px;
     background-color: rgba(58, 56, 56, 0.83);
     display: flex;

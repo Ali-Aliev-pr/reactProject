@@ -1,4 +1,38 @@
-.infromation__wrapper {
+.information__father {
+    height: 341px;
+    background-color: #222224;
+}
+
+.information__wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+img {
+}
+
+.information__title {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.information__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information__text {
+    color: white;
+    margin-top: 20px;
+    width: 321px;
+    opacity: .6;
+    text-align: center;
 }
