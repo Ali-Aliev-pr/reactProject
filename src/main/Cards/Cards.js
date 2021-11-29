@@ -1,4 +1,5 @@
 import React from "react";
+import {BrowserRouter, Link} from "react-router-dom";
 import './Cards.css'
 import c1 from './cards/first.png'
 import c2 from './cards/second.png'
@@ -23,6 +24,14 @@ function Cards() {
             <div className="cards__wrapper">
                 <p className="wrapper__title">Fetured Items</p>
                 <p className="wrapper__text">Shop for items based on what we featured in this week</p>
+                <div className="links__wrapper">
+                    <BrowserRouter>
+                        <div className="link">
+                            <Link to="/man">Man</Link>
+                        </div>
+                        <div className="link"></div>
+                    </BrowserRouter>
+                </div>
                 <div className="product__cards">
                     {cards.map(card => {
                         return(

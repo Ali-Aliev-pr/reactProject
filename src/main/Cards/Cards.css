@@ -2,6 +2,12 @@
 /*    width: 100%;*/
 /*}*/
 
+.cards__wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 .wrapper__title {
     text-align: center;
     font-size: 30px;
@@ -21,7 +27,7 @@
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 .product__card {
@@ -76,4 +82,8 @@
     font-size: 13px;
     font-family: Lato;
     padding-top: 20px;
+}
+
+.links__wrapper {
+
 }
