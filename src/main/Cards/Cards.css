@@ -84,6 +84,8 @@
     padding-top: 20px;
 }
 
-.links__wrapper {
-
+.link__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
 }

@@ -14,12 +14,14 @@ function Header() {
                 <div className="header__container">
                     <div className="header__container__left">
                         <img src={logo}/>
-                        <img src={search}/>
+                        <img className="logo" src={search}/>
                     </div>
                     <div className="header__container__right">
-                        <img src={menu}/>
-                        <img src={user}/>
-                        <img src={basket}/>
+                        {/*<input type="checkbox" id="burger"/>*/}
+                        <img className="right__img" src={menu} for="burger"/>
+                        {/*<nav class="header__nav__wrap"></nav>*/}
+                        <img className="right__img" src={user}/>
+                        <img className="right__img" src={basket}/>
                     </div>
                 </div>
             </div>

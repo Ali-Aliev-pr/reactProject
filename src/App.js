@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import Page from './Page'
 import Header from "./header/Header";
 import Main from "./main/main";
@@ -15,6 +15,11 @@ function App() {
       <BrowserRouter>
         <div className="container">
             <Header/>
+            <nav>
+                <Link to="/">Main</Link>
+                <Link to="/man">Man</Link>
+                <Link to="woman">Woman</Link>
+            </nav>
             <Switch>
                 <Route exact path="/">
                     <Main/>

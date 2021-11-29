@@ -5,6 +5,7 @@ import Intro from "./intro/Intro";
 import Category from "./category/Category";
 import Cards from "./Cards/Cards";
 import Information from "./Information/Information";
+import {Link, BrowserRouter} from "react-router-dom";
 
 function Main() {
     const style = {
